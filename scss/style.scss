@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$color-letra: rgb(14, 104, 42);
+$color-navfoot: rgba(73, 143, 137, 0.836);
+$letra-boton: cursive;
+/* $letra-titulo:  */
+
+
+
+@import "./layout/mixins";
+@import "./layout/header";
+@import "./layout/body";
+@import "./layout/footer";
+@import "./mqueries/mqueries";
+

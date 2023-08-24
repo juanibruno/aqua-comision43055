@@ -1,0 +1,411 @@
+/* DESDE ACA TODO BODY */
+body {
+
+    background-image: url(https://images.unsplash.com/photo-1566305977571-5666677c6e98?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=645&q=80);
+}
+
+
+
+/* DESDE ACA INDEX */
+
+
+.entrada {
+
+
+    .foto-entrada {
+
+        img {
+            width: 100%;
+            height: 800px;
+            padding: 1px;
+            border: solid 1px rgb(37, 85, 52);
+            box-shadow: 2px 2px 2px 1px;
+        }
+
+    }
+
+
+
+    .foto-entrada {
+        div {
+            text-align: center;
+
+            button {
+                padding: 2px 50px;
+                margin-top: 10px;
+                border-radius: 50px;
+                background: $color-navfoot;
+                box-shadow: 2px -2px 5px #4e917d,
+                    -2px 2px 5px #5ead95;
+
+                a {
+                    font-family: $letra-boton;
+
+                }
+            }
+        }
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 25px;
+        color: $color-letra;
+
+    }
+}
+
+.segunda-seccion {
+    display: grid;
+    grid-template-areas: repeat(4, 1fr);
+    padding: 10px;
+
+    .segunda-seccion1 {
+        grid-column: 1/3;
+        width: 60%;
+        padding: 20px;
+        text-align: center;
+        margin-left: 60px;
+        color: $color-letra;
+        border: solid 1px rgb(37, 85, 52);
+        box-shadow: 2px 2px 2px 1px;
+    }
+}
+
+.segunda-seccion {
+    .segunda-seccion2 {
+        grid-column: 3/4;
+        background-color: rgba(136, 129, 97, 0.507);
+        padding: 25px;
+        margin: 25px;
+        margin-right: 50px;
+
+        .card {
+            background-color: rgba(136, 129, 97, 0.856);
+        }
+
+    }
+}
+
+.boton {
+    padding-top: 20px;
+}
+
+/* DESDE ACA NOSOTROS */
+
+.nosotros {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .texto-contenedor {
+        .texto-nosotros {
+            font-size: 18px;
+        }
+    }
+
+    .foto-nosotros {
+        img {
+            grid-column: 1/2;
+            padding: 15px;
+            width: 90%;
+            height: auto;
+
+
+        }
+    }
+
+    .texto-contenedor {
+        grid-column: 2/3;
+        padding-right: 15px;
+        margin-top: 20px;
+
+        .otra-cosa {
+            display: flex;
+            justify-content: center;
+
+            .card-body {
+                .card-title {
+                    font-size: 18px;
+                }
+            }
+        }
+
+
+    }
+}
+
+.texto-contenedor {
+
+    .texto-nosotros {
+        padding-top: 15px;
+        margin: 5px;
+        color: $color-letra;
+    }
+
+    .otra-cosa {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+        padding-top: 20px;
+        gap: 10px;
+        background-color: rgba(56, 145, 115, 0.281);
+    }
+
+}
+
+
+/* DESDE ACA PROYECTOS */
+
+.inicio-proyectos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+
+    .pasto {
+        grid-column: 1/4;
+        width: 100%;
+        height: 20vh;
+        background-image: url(https://images.unsplash.com/photo-1589496933738-f5c27bc146e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGFzdG98ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+        background-repeat: repeat;
+        text-align: center;
+        align-content: center;
+        padding: 30px;
+        color: $color-letra;
+
+        div {
+            background-image: url(https://images.unsplash.com/photo-1566305977571-5666677c6e98?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=645&q=80);
+            margin: 15px;
+            border-radius: 70%;
+            padding: 10px;
+        }
+    }
+
+    .proyectos1 {
+        grid-column: 1/4;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: rgb(80, 90, 83);
+            padding-top: 15px;
+
+            h2 {
+                color: rgb(37, 85, 52);
+            }
+
+
+            img {
+                width: 50%;
+                height: 40vh;
+                margin: 10px;
+                border: solid rgba(0, 0, 0, 0.322);
+                box-shadow: 15px 15px 15px 0px;
+            }
+        }
+
+        .texto-proyectos {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 15px;
+            padding: 15px;
+            color: $color-letra;
+
+            p {
+                font-size: 18px;
+
+            }
+
+
+        }
+
+        .sector-boton {
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            padding: 20px;
+            background-color: rgba(240, 248, 255, 0.514);
+
+            button {
+                background-color: rgba(175, 179, 176, 0.39);
+                font-size: 30px;
+
+                a {
+                    color: $color-letra;
+                    text-decoration: none;
+                    border: solid rgba(0, 0, 0, 0.322);
+                }
+            }
+
+
+        }
+    }
+
+    .proyectos2 {
+        grid-column: 1/4;
+        padding-block: 15px;
+        justify-content: center;
+        align-items: center;
+
+        h3 {
+            display: flex;
+            justify-content: center;
+            color: $color-letra;
+            padding: 15px;
+        }
+
+        .row {
+            display: flex;
+            margin: 15px;
+
+            .card {
+                border: solid 1px rgb(0, 0, 0);
+                box-shadow: 15px 15px 15px 0px;
+                width: 100%;
+
+
+            }
+        }
+
+    }
+
+}
+
+/* DESDE ACA PRODUCTOS */
+
+
+.productos {
+    display: flex;
+    padding: 20px;
+
+    .productos1 {
+        display: flex;
+        min-height: 100vh;
+        justify-content: center;
+        align-items: center;
+        margin: 0px auto;
+        width: 80%;
+        flex-direction: column;
+        row-gap: 50px;
+        color: $color-letra;
+        text-align: center;
+
+        h2 {
+            padding: 5px;
+        }
+
+        .cartelera {
+            display: flex;
+            width: 600px;
+            height: 530px;
+            justify-content: center;
+            border: solid 1px rgb(37, 85, 52);
+            box-shadow: 15px 15px 15px 0px;
+
+            img {
+                width: 0px;
+                flex-grow: 1;
+                object-fit: cover;
+                opacity: 8;
+                transition: 2s ease;
+            }
+        }
+
+        .cartelera {
+            img:hover {
+                cursor: crosshair;
+                width: 300px;
+                opacity: 1;
+                filter: contrast(120%);
+            }
+        }
+    }
+}
+
+.tarjetas {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding-block: 10px;
+
+    .card {
+        @include juani(.125rem, solid .0625rem rgb(37, 85, 52), .3125rem, #cdcfcf);
+        box-shadow: 5px 5px 5px 2px;
+    }
+
+    .card2 {
+        @extend .card;
+    }
+
+    .card3 {
+        @extend .card;
+    }
+
+    .card4 {
+        @extend .card;
+    }
+}
+
+
+/* DESDE ACA CONTACTOS */
+
+.contacto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    align-self: center;
+
+    .img-contacto {
+        grid-column: 1/2;
+        display: grid;
+        width: 100%;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+
+        img {
+
+            border: solid 1px rgb(37, 85, 52);
+            box-shadow: 2px 2px 2px 1px;
+
+        }
+
+        h3 {
+            display: flex;
+            justify-content: center;
+            color: $color-letra;
+        }
+
+    }
+
+    .info-contacto {
+        grid-column: 2/4;
+        border: solid 1px rgb(37, 85, 52);
+        box-shadow: 2px 2px 2px 1px;
+
+        button {
+            margin-top: 50px;
+            margin-left: 10px;
+        }
+
+        .form-floating {
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+
+        padding: 20px;
+        margin: 20px;
+        width: 80%;
+    }
+
+}
+
+
+.ultimo-contacto {
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    background-image: url(https://images.unsplash.com/photo-1589496933738-f5c27bc146e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGFzdG98ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+    background-repeat: repeat;
+}

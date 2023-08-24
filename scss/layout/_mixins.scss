@@ -1,0 +1,10 @@
+
+
+@mixin juani($pad, $border, $margin, $bg-color){
+    padding: $pad;
+    border: $border;
+    margin: $margin;
+    background-color: $bg-color;
+    
+}
+

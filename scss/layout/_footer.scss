@@ -1,0 +1,29 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: $color-navfoot;
+    align-items: center;
+    align-content: center;
+
+    .img-de-footer {
+        margin-left: 20px;
+        margin-top: 15px;
+       
+
+        img {
+            width: 20px;
+            height: 20px;
+            
+        }
+    }
+}
+
+.footer {
+    .derechos {
+        margin-right: 20px;
+        justify-items: center;
+        margin-top: 15px;
+
+    }
+
+}

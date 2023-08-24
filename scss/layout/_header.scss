@@ -1,0 +1,33 @@
+header {
+    background-color: $color-navfoot;
+    display: flex;
+    justify-content: space-between;
+
+    div {
+        img {
+            margin: 20px;
+            pad: 15px;
+        }
+    }
+
+    nav {
+        margin: 15px;
+        align-content: end;
+        margin-top: 20px;
+
+    }
+}
+
+@media(max-width: 64rem){
+    .header {
+        div{
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+
+
+
+
